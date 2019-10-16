@@ -4,7 +4,6 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
-    padding: 2rem;
     color: white;
     font: 1.3rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
@@ -25,6 +24,18 @@ body {
     text-shadow: none;
   }
   
-  pre {
-    margin: 0;
+  .app-header {
+      display: flex;
+      top: 0;
+      position: fixed;
+      z-index: 9999;
+      background: rgba(37, 76, 53, 0.4);
+      width: 100%;
+      padding: 10px;
+  }
+
+  .app-desc{
+    margin-left: 2vw;
+    margin-top: 15vh;
+    font-size: 0.5rem;
   }
